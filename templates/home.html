@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head><title>Inicio</title></head>
+<body>
+  <h1>Bienvenido, {{ request.user }}</h1>
+  <p>¿Estás logeado?: {{ request.user.is_authenticated }}</p>
+</body>
+</html>
