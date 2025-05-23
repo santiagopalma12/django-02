@@ -5,4 +5,6 @@ class Persona(models.Model):
     edad = models.IntegerField()
     descripcion = models.TextField()
     email = models.EmailField(default="noemail@example.com")
+    activo = models.BooleanField(null=True, default=True, blank=True)
+
 
